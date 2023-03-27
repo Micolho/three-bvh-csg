@@ -2,7 +2,7 @@ import { BufferGeometry, Group, InstancedMesh, Line3, LineSegments, Mesh, MeshPh
 
 export class Brush extends Mesh {
 
-	constructor(...args);
+  constructor(...args);
   isBrush: boolean;
   markUpdated(): void;
   isDirty(): boolean;
